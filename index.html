@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook clown</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/10c9701609.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="logo.png" alt="" class="logo">
+            <ul>
+                <li><img src="notification.png" alt=""></li>
+                <li><img src="inbox.png" alt=""></li>
+                <li><img src="video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="search.png" alt="">
+                <input type="text" name="" id="" placeholder="Search">
+            </div>
+
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="profile-pic.jpeg" alt="" style="width: 50px; height: 50px;">
+            </div>
+        </div>
+
+        <!-- Setting Menu -->
+        <div class="setting-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="profile-pic.jpeg" >
+                    <div>
+                        <p>Fred Chizim</p>
+                        <a href="#">See Your profile</a>
+                    </div>
+                </div>
+
+                <hr>
+    
+                <div class="user-profile">
+                    <img src="feedback.png" >
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us improve</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="logout.png" class="settings-icon">
+                    <a href="#">Log out <img src="arrow.png" width="10px"></a>
+                </div>
+            </div>
+            
+            
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- left-sidebar -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="news.png" alt=""> Latest News</a>
+                <a href="#"><img src="friends.png" alt=""> Friends</a>
+                <a href="#"><img src="group.png" alt=""> Group</a>
+                <a href="#"><img src="marketplace.png" alt=""> Marketplace</a>
+                <a href="#"><img src="watch.png" alt=""> watch</a>
+                <a href="#">See More</a>
+            </div>
+
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="shortcut-1.png" alt=""> Web Developers</a>
+                <a href="#"><img src="shortcut-2.png" alt=""> Web Design course</a>
+                <a href="#"><img src="shortcut-3.png" alt=""> Full Stack Dev</a>
+                <a href="#"><img src="shortcut-4.png" alt=""> Website Experts</a>
+            </div>
+        </div>
+
+        <!-- main content -->
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="upload.png" >
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="member-1.png" >
+                    <p>Jane</p>
+                </div>
+                <div class="story story3">
+                    <img src="member-2.png" >
+                    <p>Mezu</p>
+                </div>
+                <div class="story story4">
+                    <img src="member-3.png" >
+                    <p>zimber</p>
+                </div>
+                <div class="story story5">
+                    <img src="member-4.png" >
+                    <p>John</p>
+                </div>
+            </div>
+
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="profile-pic.jpeg" >
+                    <div>
+                        <p>Fred Chizim</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea  rows="3" placeholder="What is on your mind, fred?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="live-video.png" alt=""> Live Video</a>
+                        <a href="#"><img src="photo.png" alt=""> Photo/Video</a>
+                        <a href="#"><img src="feeling.png" alt=""> Feeling/Activity</a>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.jpeg" >
+                            <div>
+                                <p>Fred Chizim</p>
+                                <span>November 24 2021, 13:40 pm</span>
+                            </div>
+                        </div >
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-test">Subscribe <span> @Fred_chizim </span> on instagram and twitter 
+                        <a href="#">@Fred_chizim</a> <a href="#">#Twitter</a></p>
+                        <img src="feed-image-1.png" alt="" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like-blue.png" alt=""> 120</div>
+                                <div><img src="comments.png" alt=""> 25</div>
+                                <div><img src="share.png" alt=""> 20</div>
+                            </div>
+                            <div class="post-profile-icon">
+
+                                <img src="profile-pic.jpeg" > <i class="fas fa-caret-down"></i>
+
+                            </div>
+                        </div>
+                </div>
+
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.jpeg" >
+                            <div>
+                                <p>Fred Chizim</p>
+                                <span>November 24 2021, 13:40 pm</span>
+                            </div>
+                        </div >
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-test">Like and share this video with friends, tag <span> @Fred_chizim </span> facebook page on your post.
+                         Ask your doubts in the comments <a href="#">#Fred_chizim</a> <a href="#">#Twitter</a></p>
+                        <img src="feed-image-2.png" alt="" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like.png" alt=""> 120</div>
+                                <div><img src="comments.png" alt=""> 25</div>
+                                <div><img src="share.png" alt=""> 20</div>
+                            </div>
+                            <div class="post-profile-icon">
+
+                                <img src="profile-pic.jpeg" > <i class="fas fa-caret-down"></i>
+
+                            </div>
+                        </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.jpeg" >
+                            <div>
+                                <p>Fred Chizim</p>
+                                <span>November 24 2021, 13:40 pm</span>
+                            </div>
+                        </div >
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-test">Like and share this video with friends, tag <span> @Fred_chizim </span> facebook page on your post.
+                         Ask your doubts in the comments <a href="#">#Fred_chizim</a> <a href="#">#Twitter</a></p>
+                        <img src="feed-image-3.png" alt="" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like.png" alt=""> 120</div>
+                                <div><img src="comments.png" alt=""> 25</div>
+                                <div><img src="share.png" alt=""> 20</div>
+                            </div>
+                            <div class="post-profile-icon">
+
+                                <img src="profile-pic.jpeg" > <i class="fas fa-caret-down"></i>
+
+                            </div>
+                        </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.jpeg" >
+                            <div>
+                                <p>Fred Chizim</p>
+                                <span>November 24 2021, 13:40 pm</span>
+                            </div>
+                        </div >
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-test">Like and share this video with friends, tag <span> @Fred_chizim </span> facebook page on your post.
+                         Ask your doubts in the comments <a href="#">#Fred_chizim</a> <a href="#">#Twitter</a></p>
+                        <img src="feed-image-4.png" alt="" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like.png" alt=""> 120</div>
+                                <div><img src="comments.png" alt=""> 25</div>
+                                <div><img src="share.png" alt=""> 20</div>
+                            </div>
+                            <div class="post-profile-icon">
+
+                                <img src="profile-pic.jpeg" > <i class="fas fa-caret-down"></i>
+
+                            </div>
+                        </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.jpeg" >
+                            <div>
+                                <p>Fred Chizim</p>
+                                <span>November 24 2021, 13:40 pm</span>
+                            </div>
+                        </div >
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-test">Like and share this video with friends, tag <span> @Fred_chizim </span> facebook page on your post.
+                         Ask your doubts in the comments <a href="#">#Fred_chizim</a> <a href="#">#Twitter</a></p>
+                        <img src="feed-image-5.png" alt="" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like.png" alt=""> 120</div>
+                                <div><img src="comments.png" alt=""> 25</div>
+                                <div><img src="share.png" alt=""> 20</div>
+                            </div>
+                            <div class="post-profile-icon">
+
+                                <img src="profile-pic.jpeg" > <i class="fas fa-caret-down"></i>
+
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+
+            <button type="button" class="load-more-btn">Load More</button>
+
+            
+
+
+        </div>
+
+        <!-- right-sidebar -->
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>Nov</span>
+                </div>
+
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>December</span>
+                </div>
+
+                <div class="right-event">
+                    <h4>Mobile Market</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="advertisement.png" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="member-1.png" alt="">
+                </div>
+                <p>Alison Mina</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="member-2.png" alt="">
+                </div>
+                <p>Uche vab</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="member-3.png" alt="">
+                </div>
+                <p>Veronica</p>
+            </div>
+        </div>
+
+        <!-- <div class="write-post-container">
+            <div class="user-profile">
+                <img src="images/profile-pic.jpeg" style="width: 45px; height: 45px;">
+            </div>
+            <div>
+                <p>Fred Chizim</p>
+                <small>Public </small>
+            </div>
+        </div> -->
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2023 - Fred Chizim</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
